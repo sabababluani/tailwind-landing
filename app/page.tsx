@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Card from "./components/Card";
 import Content from "./components/Contents";
+import Faq from "./components/Faq";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
             description={
               "Aytomatic white listing and protecting against malicious applications. Control what applications are run across your infrastructure by defining policies"
             }
+            link={true}
           />
           <Card
             title={"Intero gate youre infrastructure"}
@@ -24,6 +26,7 @@ export default function Home() {
             description={
               "Aytomatic white listing and protecting against malicious applications. Control what applications are run across your infrastructure by defining policies"
             }
+            link={true}
           />
           <Card
             title={"Set alert"}
@@ -31,9 +34,11 @@ export default function Home() {
             description={
               "Aytomatic white listing and protecting against malicious applications. Control what applications are run across your infrastructure by defining policies"
             }
+            link={true}
           />
         </div>
         <Content />
+        <Faq />
       </div>
     </div>
   );

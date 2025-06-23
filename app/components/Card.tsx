@@ -5,6 +5,7 @@ interface Props {
   title: string;
   image: string;
   description: string;
+  link: boolean;
 }
 
 const Card = (props: Props) => {
@@ -15,9 +16,11 @@ const Card = (props: Props) => {
         <h3 className="font-bold text-2xl text-center">{props.title}</h3>
         <p className="text-center text-[#9AA1A5]">{props.description}</p>
       </div>
-      <Link href={"#"} className="text-[#27A9FF]">
-        Read more
-      </Link>
+      {props.link && (
+        <Link href={"#"} className="text-[#27A9FF]">
+          Read more
+        </Link>
+      )}
     </div>
   );
 };

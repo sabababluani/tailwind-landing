@@ -4,10 +4,12 @@ import Hero from "./components/Hero";
 import Card from "./components/Card";
 import Content from "./components/Contents";
 import Faq from "./components/Faq";
+import JoinUs from "./components/JoinUs";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
-    <div className="flex w-full justify-center bg-[url('/back.png')] bg-cover bg-center">
+    <div className="flex w-full justify-center bg-[url('/back.png')] bg-no-repeat">
       <div className="flex flex-col gap-48 max-w-[1216px] w-full justify-center ">
         <Header />
         <Hero />
@@ -39,6 +41,8 @@ export default function Home() {
         </div>
         <Content />
         <Faq />
+        <JoinUs />
+        <Footer />
       </div>
     </div>
   );

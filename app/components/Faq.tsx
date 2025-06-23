@@ -5,7 +5,7 @@ const Faq = () => {
     <div className="flex flex-col gap-16 items-center">
       <h3 className="text-[32px] font-[600]">Frequently Asked Questions</h3>
       <span className="text-[#9AA1A5]">
-        You can sen email with your questions and we’ll give your asnwer
+        You can sen email with your questions and we'll give your asnwer
       </span>
       <div className="flex gap-12">
         <Card
@@ -33,6 +33,9 @@ const Faq = () => {
           link={false}
         />
       </div>
+      <button className="text-[#fff] rounded-[8px] px-[40px] py-[16px] cursor-pointer bg-gradient-to-r from-[#1127DCE8] to-[#0089FB]">
+        SHOW MORE
+      </button>
     </div>
   );
 };

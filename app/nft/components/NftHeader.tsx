@@ -1,6 +1,6 @@
 const NftHeader = () => {
   return (
-    <header className="flex justify-between items-center p-[24px] w-full ">
+    <header className="flex justify-between items-center py-[24px] w-full">
       <span>NFTFORG</span>
       <nav className="flex items-center gap-[24px] py-[8px] px-[16px] bg-[#EAEAEA] rounded-[8px]">
         <div className="flex items-center justify-center bg-gradient-to-r from-[#FFE259] to-[#FFA751] rounded-[8px] px-[16px] py-[8px]">

@@ -2,6 +2,7 @@ import Image from "next/image";
 import NftHeader from "./components/NftHeader";
 import SliderSection from "./components/SliderSection";
 import AboutMe from "./components/AboutMe";
+import TopsSection from "./components/TopsSection";
 
 const NFT = () => {
   return (
@@ -14,6 +15,7 @@ const NFT = () => {
         </div>
         <SliderSection />
         <AboutMe />
+        <TopsSection />
       </div>
     </div>
   );

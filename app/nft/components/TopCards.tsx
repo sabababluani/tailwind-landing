@@ -1,12 +1,18 @@
 import Image from "next/image";
 
-const TopCards = () => {
+const TopCards = (props: { image: string; title: string; floor: string }) => {
   return (
-    <div>
-      <Image src={"/owl2.png"} alt="owl" width={292} height={303} />
-      <div>
-        <p>Dread spectre </p>
-        <span>Floor: 0.08 ETH</span>
+    <div className="flex flex-col">
+      <Image
+        src={props.image}
+        alt="owl"
+        width={292}
+        height={303}
+        className="rounded-t-2xl"
+      />
+      <div className="flex flex-col bg-[#eaeaea] rounded-b-2xl p-3">
+        <p>{props.title}</p>
+        <span>Floor: {props.floor} ETH</span>
       </div>
     </div>
   );

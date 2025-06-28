@@ -6,7 +6,7 @@ const TopCards = (props: { image: string; title: string; floor: string }) => {
       <Image
         src={props.image}
         alt="owl"
-        width={292}
+        width={282}
         height={303}
         className="rounded-t-2xl"
       />

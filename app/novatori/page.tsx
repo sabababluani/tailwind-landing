@@ -1,3 +1,4 @@
+import NovatoriAboutUsCard from "./components/NovatoriAboutUsCard";
 import NovatoriCard from "./components/NovatoriCard";
 import NovatoriHeader from "./components/NovatoriHeader";
 import NovatoriMainSection from "./components/NovatoriMainSection";
@@ -54,6 +55,13 @@ const Novatori = () => {
             }
           />
         </div>
+        <NovatoriAboutUsCard
+          title={"უამრავი შეხვედრა"}
+          description={
+            "ჩვენი კურსი საშუალებას მოგცემს სრულყოფილად აითვისო ახალი პროფესია და მასთან დაკავშირებული უნარები, გაიუმჯობესო სასაუბრო ინგლისური და ყველა კომპონენტში მოემზადო შენი პირველი გასაუბრებისთვის."
+          }
+          image={"/class.jpg"}
+        />
       </div>
     </div>
   );
